@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build with jenkinsfile demo') {
+            steps {
+                echo 'Hello, Build completed from Jenkinsfile!'
+            }
+        }
+    }
+}
